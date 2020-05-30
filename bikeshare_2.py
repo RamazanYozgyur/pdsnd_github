@@ -160,14 +160,14 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 def display_data_function(df):
-    answer=input("Do you want to see raw data? Yes or no ").lower()
+    answer=input("Do you want to see raw data? Yes or No ").lower()
     if answer not in ("yes","no"):
-        print("Please answer correctly. Yes or no. ") 
+        print("Please answer correctly. Yes or No. ") 
     
     k=5          
     while answer == "yes":
         print(df.head(k))
-        answer=input("Do you want to see more raw data? Yes or no ").lower()
+        answer=input("Do you want to see more raw data? Yes or No ").lower()
         k+=5     
     print('-'*40)
     
