@@ -1,15 +1,13 @@
 ### Date created
-Include the date you created this project and README file.
-
-### Project Title
-Replace the Project Title
+30 May 2020
+## Project Title
+Bikeshare project
 
 ### Description
-Describe what your project is about and what it does
+It gives information about bicycle used in 3 different cities of USA. You can see the information about popular stations and you can see the information about users.
 
 ### Files used
-Include the files used
-
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+chicago.csv
+new_york_city.csv
+washington.csv
 
